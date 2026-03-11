@@ -582,8 +582,7 @@ body {
                 display: block;
                 width: 100px;
                 height: 100px;
-                background: url('assets/discord2.png') no-repeat center center;
-                background-color: #e0218a;
+                background: url('assets/discord.png') no-repeat center center;
                 background-size: contain;
                 border: 3px solid #112244;
                 border-radius: 16px;
@@ -597,7 +596,6 @@ body {
                 width: 100px;
                 height: 100px;
                 background: url('assets/telegram.png') no-repeat center center;
-                background-color: #e0218a;
                 background-size: contain;
                 border: 3px solid #112244;
                 border-radius: 16px;
@@ -618,18 +616,6 @@ body {
                 transition: transform 0.3s, box-shadow 0.3s;
             "></a>
 
-            <!-- ShareThis -->
-            <a href="https://www.github.com" target="_blank" style="
-                display: block;
-                width: 100px;
-                height: 100px;
-                background: url('assets/sharethis.png') no-repeat center center;
-                background-size: contain;
-                border: 3px solid #112244;
-                border-radius: 16px;
-                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-                transition: transform 0.3s, box-shadow 0.3s;
-            "></a>
         </div>
     </div>
 </section>
