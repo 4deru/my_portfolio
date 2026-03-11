@@ -48,12 +48,12 @@ include 'projects_section.php';
 body {
     margin: 0;
     font-family: '3Dventure', sans-serif;
-    background: #C8BDDB;
-    color: #333;
+    background: #fff;
+    color: #112244;
     overflow-x: hidden; 
     overflow-y: auto;
     position: relative;
-    scrollbar-color: #AF5A97 #E5E5F4; 
+    scrollbar-color: #112244 #e5eaf5;
 }
 
     .hero {
@@ -80,48 +80,45 @@ body {
       height: auto;
     }
 
-    .hero-text {
-      height: 350px;
-      width: 100%;
-      max-width: 100%; 
-      min-height: 100%; 
-      text-align: left;
-      background-color: #E5E5F4;
-      border-top: 4px solid #C087BD;
-      border-bottom: 4px solid #C087BD;
-      border-radius: 12px;
-      padding: 20px;
-    
-    }
+        .hero-text {
+            height: 350px;
+            width: 100%;
+            max-width: 100%; 
+            min-height: 100%; 
+            text-align: left;
+            background-color: #f5f8fd;
+            border-top: 4px solid #112244;
+            border-bottom: 4px solid #112244;
+            border-radius: 12px;
+            padding: 20px;
+        }
 
-    .hero-text h1 {
-      font-size: 36px;
-      margin-bottom: 20x;
-      color: #55276C;
-      border-radius:4px;
-      border-bottom:3px solid #AF5A97
-      
-    }
+        .hero-text h1 {
+            font-size: 36px;
+            margin-bottom: 20x;
+            color: #112244;
+            border-radius:4px;
+            border-bottom:3px solid #112244;
+        }
 
-    .hero-text p {
-      padding: 15px;
-      font-size: 18px;
-      max-height: 200px;
-      max-width: 400px;
-      background-color: #E5E5F4;
-      border-left:3px solid #AF5A97;
-      border-right:3px solid #AF5A97;
-      text-align: center;
-      margin: auto;
-      letter-spacing: 2px;
-      word-spacing: 5px;
-      max-width: none;
-      font-size: 1.5rem;
-      white-space: normal;
-      overflow-y: auto;
-      font-family: 'PixelifySans-VariableFont_wght';
-      
-    }
+        .hero-text p {
+            padding: 15px;
+            font-size: 18px;
+            max-height: 200px;
+            max-width: 400px;
+            background-color: #f5f8fd;
+            border-left:3px solid #112244;
+            border-right:3px solid #112244;
+            text-align: center;
+            margin: auto;
+            letter-spacing: 2px;
+            word-spacing: 5px;
+            max-width: none;
+            font-size: 1.5rem;
+            white-space: normal;
+            overflow-y: auto;
+            font-family: 'PixelifySans-VariableFont_wght';
+        }
 
     .resume-container {
         display: flex;
@@ -136,9 +133,9 @@ body {
 
     .resume-box {
         flex: 0 0 calc(31.5% - 35px);
-        background: #E5E5F4;
-        border-top: 4px solid #AF5A97;
-        border-bottom: 4px solid #AF5A97;
+        background: #f5f8fd;
+        border-top: 4px solid #112244;
+        border-bottom: 4px solid #112244;
         padding: 20px;
         border-radius: 15px;
         transition: transform 0.5s ease; 
@@ -166,24 +163,24 @@ body {
     .carousel-dot {
         width: 12px;
         height: 12px;
-        background-color: #AF5A97;
+        background-color: #112244;
         border-radius: 50%;
         cursor: pointer;
         transition: background-color 0.3s, transform 0.3s;
     }
 
     .carousel-dot.active {
-        background-color: #55276C;
+        background-color: #1a2a4f;
         transform: scale(1.2); 
     }
 
     .carousel-dot:hover {
-        background-color: #55276C;
+        background-color: #1a2a4f;
         transform: scale(1.2); 
     }
 
     .carousel-dot:not(.active):hover {
-        background-color: #AF5A97;
+        background-color: #112244;
         transform: scale(1.2); 
     }
 
@@ -201,8 +198,8 @@ body {
     }
 
     .project-card {
-        background: #E5E5F4;
-        border: 4px solid #AF5A97;
+        background: #f5f8fd;
+        border: 4px solid #112244;
         border-bottom: none;
         border-radius: 15px;
         overflow: hidden;
@@ -225,7 +222,7 @@ body {
     }
 
     .project-card h3 {
-        color: #55276C;
+        color: #112244;
         font-family: 'PixelifySans-VariableFont_wght';
         margin-bottom: 10px;
     }
@@ -233,7 +230,7 @@ body {
     .project-card p {
         font-family: 'PixelifySans-VariableFont_wght';
         font-size: 1rem;
-        color: #333;
+        color: #112244;
         word-wrap: break-word; 
     }
 
@@ -261,10 +258,10 @@ body {
     right: 20px;
     width: 48px;
     height: 48px;
-    background-color: #AF5A97;
+    background-color: #112244;
     color: #fff;
-    border: 3px solid #55276C;
-    box-shadow: 4px 4px 0 #55276C;
+    border: 3px solid #1a2a4f;
+    box-shadow: 4px 4px 0 #1a2a4f;
     font-family: 'Press Start 2P', monospace;
     font-size: 16px;
     cursor: pointer;
@@ -276,7 +273,7 @@ body {
     opacity: 0;
     visibility: hidden;
     z-index: 1000;
-    text-shadow: 1px 1px #3c1361;
+    text-shadow: 1px 1px #1a2a4f;
     animation: none;
 }
 
@@ -292,9 +289,9 @@ body {
 }
 
 .back-to-top:hover {
-    background-color: #55276C;
+    background-color: #ffffff;
     transform: translate(-2px, -2px);
-    box-shadow: 6px 6px 0 #AF5A97;
+    box-shadow: 6px 6px 0 #ffffff;
 }
 
 @keyframes pixelPop {
@@ -326,11 +323,17 @@ body {
 }
 
 #contact-links a {
+        position: relative;
+    }
+
+    #contact-links a::after {
+        content: none !important;
+    }
     display: block;
     width: 100px;
     height: 100px;
     background-size: contain;
-    border: 3px solid #AF5A97;;
+    border: 3px solid #AF5A97;
     border-radius: 16px; /* Changed from 50% to 8px for box shape */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
@@ -360,27 +363,6 @@ body {
 .pixelated {
     image-rendering: pixelated;
     image-rendering: crisp-edges;
-}
-
-/* Enhanced Animations */
-@keyframes pixelPop {
-    0% {
-        transform: translateY(40px) scale(0.8);
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(0) scale(1);
-        opacity: 1;
-    }
-}
-
-@keyframes glitchyText {
-    0%, 100% {
-        text-shadow: 4px 4px 0 #fff, -4px -4px 0 #AF5A97;
-    }
-    50% {
-        text-shadow: -4px -4px 0 #fff, 4px 4px 0 #AF5A97;
-    }
 }
 
 /* Modal styles */
@@ -433,7 +415,7 @@ body {
     
         <div class="hero-content">
             <?php if (!empty($hero['image_path'])): ?>
-                <img src="<?php echo htmlspecialchars($hero['image_path']); ?>" alt="Profile" style="border-left: 10px solid #AF5A97;">
+                <img src="<?php echo htmlspecialchars($hero['image_path']); ?>" alt="Profile" style="border-left: 10px solid #112244;">
             <?php endif; ?>
             <div class="nav-center"><?php echo htmlspecialchars($hero['name'] ?? ''); ?></div>
         </div>
@@ -444,13 +426,13 @@ body {
     </section>
 
     <!-- Resume Section -->
-    <section id="professional-experience" class="scroll-animate pixelated" style="padding: 60px; background-color: #D4D4ED; border-top: 5px dashed #AF5A97;">
-        <h2 style="font-family: '3dventure'; font-size: 2rem; color: #55276C; text-align:center;">About Me</h2>
+    <section id="professional-experience" class="scroll-animate pixelated" style="padding: 60px; background-color: #f5f8fd; border-top: 5px  #112244;">
+        <h2 style="font-family: '3dventure'; font-size: 2rem; color: #112244; text-align:center; border-bottom: 2px solid #1a2a4f; padding-bottom: 10px;">About Me</h2>
 
         <div class="resume-container" id="resume-container">
             <?php while ($resume = $resume_result->fetch_assoc()): ?>
                 <div class="resume-box">
-                    <h3 style="color:#55276C; font-family:'PixelifySans-VariableFont_wght'; margin-bottom: 10px;"><?php echo htmlspecialchars($resume['icon'] . ' ' . $resume['title']); ?></h3>
+                    <h3 style="color:#112244; font-family:'PixelifySans-VariableFont_wght'; margin-bottom: 10px; border-bottom: 1px solid #1a2a4f; padding-bottom: 4px;"><?php echo htmlspecialchars($resume['icon'] . ' ' . $resume['title']); ?></h3>
                     <p style="font-size:1rem;"><?php echo nl2br(htmlspecialchars($resume['content'])); ?></p>
                 </div>
             <?php endwhile; ?>
@@ -463,8 +445,8 @@ body {
     </section>
 
     <!-- Projects Section -->
-    <section id="projects-section" class="scroll-animate pixelated" style="padding: 60px; background-color: #C8BDDB; border-top: 5px dashed #AF5A97;">
-        <h2 style="font-family: '3dventure'; font-size: 2rem; color: #55276C; text-align:center;">My Projects</h2>
+    <section id="projects-section" class="scroll-animate pixelated" style="padding: 60px; background-color: #e5eaf5; border-top: 5px #112244;">
+        <h2 style="font-family: '3dventure'; font-size: 2rem; color: #112244; text-align:center; border-bottom: 2px solid #1a2a4f; padding-bottom: 10px;">My Projects</h2>
 
         <div class="projects-container">
             <?php while ($project = $projects_result->fetch_assoc()): ?>
@@ -491,80 +473,51 @@ body {
 <!-- Contact Section -->
 <section id="contact-section" class="scroll-animate pixelated" style="
     padding: 80px 20px;
-    background: linear-gradient(to top left,rgb(224, 115, 175) 0%, #D4D4ED 35%);
+    background: linear-gradient(to top left,#e5eaf5 0%, #fff 100%);
     overflow: hidden;
     position: relative;
-    border-top: 4px dashed #AF5A97;
-    border-bottom: 4px solid #FF69B4;
+    border-top: 4px #112244;
+    border-bottom: 4px solid #1a2a4f;
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
     justify-content: space-between;
 ">
-    <!-- Stars -->
-    <div class="star" style="position: absolute; top: 5%; left: 10%;"></div>
-    <div class="star" style="position: absolute; top: 10%; left: 20%;"></div>
-    <div class="star" style="position: absolute; top: 15%; left: 30%;"></div>
-    <div class="star" style="position: absolute; top: 20%; left: 40%;"></div>
-    <div class="star" style="position: absolute; top: 25%; left: 50%;"></div>
-    <div class="star" style="position: absolute; top: 30%; left: 60%;"></div>
-    <div class="star" style="position: absolute; top: 35%; left: 70%;"></div>
-    <div class="star" style="position: absolute; top: 40%; left: 80%;"></div>
-    <div class="star" style="position: absolute; top: 45%; left: 90%;"></div>
-    <div class="star" style="position: absolute; bottom: 5%; right: 10%;"></div>
-    <div class="star" style="position: absolute; bottom: 10%; right: 20%;"></div>
-    <div class="star" style="position: absolute; bottom: 15%; right: 30%;"></div>
-    <div class="star" style="position: absolute; bottom: 20%; right: 40%;"></div>
-    <div class="star" style="position: absolute; bottom: 25%; right: 50%;"></div>
-    <div class="star" style="position: absolute; bottom: 30%; right: 60%;"></div>
-    <div class="star" style="position: absolute; bottom: 35%; right: 70%;"></div>
-    <div class="star" style="position: absolute; bottom: 40%; right: 80%;"></div>
-    <div class="star" style="position: absolute; bottom: 45%; right: 90%;"></div>
-    <div class="star" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"></div>
-    <div class="star" style="position: absolute; top: 60%; left: 10%;"></div>
-    <div class="star" style="position: absolute; top: 70%; left: 20%;"></div>
-    <div class="star" style="position: absolute; top: 80%; left: 30%;"></div>
-    <div class="star" style="position: absolute; top: 90%; left: 40%;"></div>
-    <div class="star" style="position: absolute; bottom: 60%; right: 10%;"></div>
-    <div class="star" style="position: absolute; bottom: 70%; right: 20%;"></div>
-    <div class="star" style="position: absolute; bottom: 80%; right: 30%;"></div>
-    <div class="star" style="position: absolute; bottom: 90%; right: 40%;"></div>
 
     <!-- Contact Info Section -->
     <div style="
         flex: 1;
         max-width: 35%;
-        color: #55276C;
-        background: rgba(255,255,255,0.2);
+        color: #112244;
+        background: rgba(255,255,255,0.7);
         padding: 30px 40px;
         border-radius: 15px;
         font-size: 1.2rem;
         font-weight: 400;
         text-align: center;
-        border: 3px solid #AF5A97;
+        border: 3px solid #1a2a4f;
         font-family: 'PixelifySans-VariableFont_wght', sans-serif;
-        box-shadow: 8px 8px 0 #AF5A97;
-        margin-left: 150px; /* Added margin to move it slightly to the right */
+        box-shadow: 8px 8px 0 #1a2a4f;
+        margin-left: 150px;
     ">
          <h2 style="
         font-size: 3.5rem;
-        color: #55276C;
+        color: #112244;
         text-align: center;
         margin-bottom: 60px;
-        animation: glitchyText 1s steps(4) infinite alternate;
         font-family: '3Dventure', sans-serif;
         letter-spacing: 2px;
         text-shadow: 4px 4px 0 #fff;
     ">
-        ✨ GET IN TOUCH
+        GET IN TOUCH
         </h2>
         <?php while ($contact_info = $contact_info_result->fetch_assoc()): ?>
             <div style="margin-bottom: 20px;">
-                <h3 style="font-size: 2rem; margin-bottom: 10px;"><?php echo htmlspecialchars($contact_info['section_title']); ?></h3>
-                <p><?php echo htmlspecialchars($contact_info['description']); ?></p>
-                <p>📥 <strong>Email:</strong> <?php echo htmlspecialchars($contact_info['email']); ?></p>
-                <p>🖁 <strong>Phone:</strong> <?php echo htmlspecialchars($contact_info['phone']); ?></p>
-                <p>📌 <strong>Location:</strong> <?php echo htmlspecialchars($contact_info['location']); ?></p>
+                <h3 style="font-size: 2rem; margin-bottom: 10px; color: #112244; border-bottom: 1px solid #1a2a4f; padding-bottom: 4px;"><?php echo htmlspecialchars($contact_info['section_title']); ?></h3>
+                <p style="color: #112244;"><?php echo htmlspecialchars($contact_info['description']); ?></p>
+                <p style="color: #112244;">📥 <strong>Email:</strong> <?php echo htmlspecialchars($contact_info['email']); ?></p>
+                <p style="color: #112244;">🖁 <strong>Phone:</strong> <?php echo htmlspecialchars($contact_info['phone']); ?></p>
+                <p style="color: #112244;">📌 <strong>Location:</strong> <?php echo htmlspecialchars($contact_info['location']); ?></p>
             </div>
         <?php endwhile; ?>
     </div>
@@ -577,7 +530,7 @@ body {
         color: #fff;
         font-family: '3Dventure', sans-serif;
     ">
-        <h2 style="font-size: 2rem; color: #55276C; margin-bottom: 40px;">You can also find me here:</h2>
+        <h2 style="font-size: 2rem; color: #112244; margin-bottom: 40px;">You can also find me here:</h2>
         <div style="
             display: flex;
             flex-wrap: wrap;
@@ -592,7 +545,7 @@ body {
                 height: 100px;
                 background: url('assets/facebook.png') no-repeat center center;
                 background-size: contain;
-                border: 3px solid #AF5A97;
+                border: 3px solid #112244;
                 border-radius: 16px;
                 box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
                 transition: transform 0.3s, box-shadow 0.3s;
@@ -605,7 +558,7 @@ body {
                 height: 100px;
                 background: url('assets/linkedin.png') no-repeat center center;
                 background-size: contain;
-                border: 3px solid #AF5A97;
+                border: 3px solid #112244;
                 border-radius: 16px;
                 box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
                 transition: transform 0.3s, box-shadow 0.3s;
@@ -618,7 +571,7 @@ body {
                 height: 100px;
                 background: url('assets/github.png') no-repeat center center;
                 background-size: contain;
-                border: 3px solid #AF5A97;
+                border: 3px solid #112244;
                 border-radius: 16px;
                 box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
                 transition: transform 0.3s, box-shadow 0.3s;
@@ -632,7 +585,7 @@ body {
                 background: url('assets/discord2.png') no-repeat center center;
                 background-color: #e0218a;
                 background-size: contain;
-                border: 3px solid #AF5A97;
+                border: 3px solid #112244;
                 border-radius: 16px;
                 box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
                 transition: transform 0.3s, box-shadow 0.3s;
@@ -646,7 +599,7 @@ body {
                 background: url('assets/telegram.png') no-repeat center center;
                 background-color: #e0218a;
                 background-size: contain;
-                border: 3px solid #AF5A97;
+                border: 3px solid #112244;
                 border-radius: 16px;
                 box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
                 transition: transform 0.3s, box-shadow 0.3s;
@@ -659,7 +612,7 @@ body {
                 height: 100px;
                 background: url('assets/twitter.png') no-repeat center center;
                 background-size: contain;
-                border: 3px solid #AF5A97;
+                border: 3px solid #112244;
                 border-radius: 16px;
                 box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
                 transition: transform 0.3s, box-shadow 0.3s;
@@ -672,7 +625,7 @@ body {
                 height: 100px;
                 background: url('assets/sharethis.png') no-repeat center center;
                 background-size: contain;
-                border: 3px solid #AF5A97;
+                border: 3px solid #112244;
                 border-radius: 16px;
                 box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
                 transition: transform 0.3s, box-shadow 0.3s;

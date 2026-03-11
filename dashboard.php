@@ -221,8 +221,8 @@ $section = $_GET['section'] ?? 'hero';
         body {
             font-family: 'PixelifySans-VariableFont_wght', sans-serif;
             display: flex;
-            background: #C8BDDB;
-            color: #333;
+            background: #fff;
+            color: #112244;
             min-height: 100vh;
             overflow-x: hidden;
         }
@@ -238,22 +238,23 @@ $section = $_GET['section'] ?? 'hero';
         position: sticky;
         top: 0;
         height: 100vh;
-        box-shadow: 5px 0 10px rgba(0, 0, 0, 0.1);
+        box-shadow: 5px 0 10px rgba(17,34,68,0.08);
+        background: #fff;
     }
 
 
         .sidebar h2 {
-            color: #55276C;
+            color: #112244;
             font-size: 1.5rem;
             margin-bottom: 30px;
             text-align: center;
         }
 
         .sidebar a {
-            color: #AF5A97;
+            color: #112244;
             text-decoration: none;
             padding: 12px 15px;
-            background: #E5E5F4;
+            background: #fff;
             border-left: 5px solid transparent;
             transition: 0.3s;
             font-size: 1rem;
@@ -263,33 +264,34 @@ $section = $_GET['section'] ?? 'hero';
         }
 
         .sidebar a:hover, .sidebar a.active {
-            background: #AF5A97;
-            border-left: 5px solid #55276C;
+            background: #112244;
+            border-left: 5px solid #112244;
             color: #fff;
         }
 
         .content {
             flex: 1;
             padding: 40px;
-            background: #E5E5F4;
+            background: #fff;
+            color: #112244;
         }
 
         h1, h2 {
-            color: #55276C;
+            color: #112244;
             margin-bottom: 20px;
         }
 
         form {
-            background: #E5E5F4;
+            background: #fff;
             padding: 20px;
-            border: 2px solid #AF5A97;
+            border: 2px solid #112244;
             border-radius: 8px;
             margin-bottom: 30px;
         }
 
         label {
             font-size: 1rem;
-            color: #55276C;
+            color: #112244;
         }
 
         input, textarea, select, button {
@@ -297,25 +299,27 @@ $section = $_GET['section'] ?? 'hero';
             padding: 10px;
             margin-top: 10px;
             margin-bottom: 20px;
-            background: #E5E5F4;
-            border: 1px solid #AF5A97;
-            color: #333;
+            background: #fff;
+            border: 1px solid #112244;
+            color: #112244;
             font-family: inherit;
             font-size: 1rem;
             border-radius: 5px;
         }
 
         button {
-            background: #AF5A97;
+            background: #112244;
             color: #fff;
             font-weight: bold;
             border: none;
             cursor: pointer;
-            transition: background 0.3s;
+            transition: background 0.3s, color 0.3s;
         }
 
         button:hover {
-            background: #55276C;
+            background: #fff;
+            color: #112244;
+            border: 1px solid #112244;
         }
 
         ul {
@@ -324,16 +328,17 @@ $section = $_GET['section'] ?? 'hero';
         }
 
         ul li {
-            background: #D4D4ED;
+            background: #fff;
             padding: 15px;
             margin-bottom: 15px;
-            border-left: 4px solid #AF5A97;
+            border-left: 4px solid #112244;
             font-size: 1rem;
             border-radius: 8px;
+            color: #112244;
         }
 
         ul li a {
-            color: #55276C;
+            color: #112244;
             font-weight: bold;
             margin-top: 5px;
             display: inline-block;
@@ -341,7 +346,10 @@ $section = $_GET['section'] ?? 'hero';
         }
 
         ul li a:hover {
-            color: #AF5A97;
+            color: #fff;
+            background: #112244;
+            border-radius: 4px;
+            padding: 2px 6px;
         }
     </style>
 </head>

@@ -10,9 +10,9 @@ const createPixel = () => {
   };
   
   const getRandomColor = () => {
-    const colors = ['#C8BDDB', '#D4D4ED', '#BBA0CA', '#C087BD', '#AF5A97'];
+    const colors = ['#112244', '#5770a4'];
     return colors[Math.floor(Math.random() * colors.length)];
   };
   
-  setInterval(createPixel, 10);
+  setInterval(createPixel, 100);
   

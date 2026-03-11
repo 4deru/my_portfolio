@@ -25,7 +25,8 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
 
     body {
       font-family: 'PixelifySans-VariableFont_wght', sans-serif;
-      background: #C8BDDB;
+      background: #fff;
+      color: #112244;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -38,7 +39,7 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
       position: absolute;
       width: 12px;
       height: 12px;
-      background: #55276C;
+      background: #112244;
       opacity: 0.8;
       animation: fall 10s linear infinite;
       z-index: -1;
@@ -55,18 +56,19 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
 
     .login-box {
       position: absolute;
-      background: #D4D4ED;
+      background: #fff;
+      color: #112244;
       width: 300px;
       height: 400px;
       justify-items: center;
       padding: 20px;
       padding-bottom: 100px;
       border-radius: 8px;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-      border-bottom: 3px solid #55276C;
+      box-shadow: 0 5px 15px rgba(17,34,68,0.08);
+      border-bottom: 3px solid #112244;
     }
     .login-box h2 {
-      color: #55276C;
+      color: #112244;
       font-size: 2rem;
     }
 
@@ -80,26 +82,31 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
     }
 
     .login-box input {
-      border-top: 1px solid #55276C;
-      border-bottom: 1px solid #55276C;
+      border-top: 1px solid #112244;
+      border-bottom: 1px solid #112244;
       border-left: none;
       border-right: none;
       border-radius: 4px;
+      color: #112244;
+      background: #fff;
     }
     
 
     .submit{
       font-family: 'PixelifySans-VariableFont_wght', sans-serif;
-      background-color: #fa879a;
-      color: white;
+      background-color: #112244;
+      color: #fff;
       border: none;
       border-radius: 5px;
       cursor: pointer;
       text-decoration: none;
+      transition: background 0.3s, color 0.3s;
     }
 
     .submit:hover {
-      background-color: #e26e80;
+      background-color: #fff;
+      color: #112244;
+      border: 1px solid #112244;
     }
 
     .login-box label, .login-box input, .submit {
@@ -112,7 +119,7 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
       bottom: 20px;
       right: 20px;
       border-radius: 8px;
-      border-bottom: 3px solid #fa879a;
+      border-bottom: 3px solid #112244;
     }
     
   </style>
@@ -124,17 +131,17 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
     left: 20px;
     font-family: '3Dventure', sans-serif;
     font-size: 1.2rem;
-    color: #55276C;
+    color: #112244;
     text-decoration: none;
-    background-color: #E5E5F4;
+    background-color: #fff;
     padding: 10px 20px;
-    border: 2px solid #55276C;
+    border: 2px solid #112244;
     border-radius: 5px;
-    transition: background-color 0.3s, transform 0.2s;
+    transition: background 0.3s, color 0.3s, transform 0.2s;
     z-index: 10;
   " class="back-button"><- Back</a>
   <div class="login-box">
-    <img src="assets/cherry.png" alt="Logo" class="cherry" style="width: 113%; height: auto; margin-bottom: 20px;">
+    <img src="assets/snowynight.png" alt="Logo" class="cherry" style="width: 113%; height: auto; margin-bottom: 20px;">
     <h2>Welcome Back!</h2>
     <form method="post" action="login_process.php">
       <label for="username">Username:</label><br>
@@ -150,8 +157,14 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
   <script src="audio.js"></script>
   <script>
     const backButton = document.querySelector('.back-button');
-    backButton.addEventListener('mouseenter', () => backButton.style.backgroundColor = '#C8BDDB');
-    backButton.addEventListener('mouseleave', () => backButton.style.backgroundColor = '#E5E5F4');
+    backButton.addEventListener('mouseenter', () => {
+      backButton.style.backgroundColor = '#112244';
+      backButton.style.color = '#fff';
+    });
+    backButton.addEventListener('mouseleave', () => {
+      backButton.style.backgroundColor = '#fff';
+      backButton.style.color = '#112244';
+    });
   </script>
 </body>
 </html>
