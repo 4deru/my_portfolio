@@ -8,6 +8,7 @@ nav {
     padding: 20px 60px;
     background: #f5f8fd;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    border-bottom: 7px inset #8c94ac;
     z-index: 1;
     position: relative; 
     overflow: hidden; 
@@ -113,13 +114,13 @@ nav {
 
 <nav>
     <div class="nav-buttons">
-        <!-- Anchor lnks -->
-        <a href="#professional-experience" class="nav-buttons" id="hover-portfolio">About Me</a>
+        <!-- Anchor links -->
+        <a href="#professional-experience" class="nav-buttons" id="hover-portfolio">About</a>
         <a href="#projects-section" class="nav-buttons" id="hover-projects">Projects</a>
+        <a href="#contact-section" class="nav-buttons" id="hover-contact">Contact</a>
     </div>
-    <a href="login.php" class="nav-login" id="hover-login"> CMS Login </a>
     <div class="nav-right">
-        <a href="#contact-section" class="contact-btn" id="hover-contact">Contact</a>
+        <a href="login.php" class="contact-btn" id="hover-login"> CMS Login </a>
     </div>
 
     
