@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 12, 2026 at 02:32 AM
+-- Generation Time: Mar 12, 2026 at 04:13 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -77,7 +77,7 @@ CREATE TABLE `hero_section` (
 --
 
 INSERT INTO `hero_section` (`id`, `image_path`, `heading`, `description`, `name`) VALUES
-(1, 'uploads/profile.jpg', 'An Aspiring Developer', 'Hi! I am Adel Kristan Ramirez. I’m a 21-year-old IT student who enjoys coding, working out at home, and slowly grinding through Japanese lessons. This portfolio is a collection of projects I have worked on, both for school and personal growth. I am still learning ,  but every project here reflects the kind of work I aim to level up from.', 'Adel Kristan M. Ramirez');
+(1, 'uploads/481321349_1135957974939042_2671299978600768037_n.jpg', 'An Aspiring Developer', 'Hi! I am Adel Kristan Ramirez. I’m a 21-year-old IT student who enjoys coding, working out at home, and slowly grinding through Japanese lessons. This portfolio is a collection of projects I have worked on, both for school and personal growth. I am still learning ,  but every project here reflects the kind of work I aim to level up from.', 'Adel Kristan M. Ramirez');
 
 -- --------------------------------------------------------
 
@@ -147,7 +147,7 @@ CREATE TABLE `resume_section` (
 --
 
 INSERT INTO `resume_section` (`id`, `title`, `content`, `icon`) VALUES
-(13, 'Languages', 'Filipino (Native) – Great written and spoken communication, including formal and informal contexts. Mildly good in technical writing and project collaboration.\r\n\r\nChavacano (Native) – Good in both conversational and professional use. Strong cultural understanding for effective communication.\r\n\r\nEnglish (Fluent) – Proficient in technical documentation, presentations, and collaborative work in diverse teams.\r\n\r\nJapanese (Beginner) – Basic reading, writing, and conversational skills. Actively expanding vocabulary and grammar through self-study and practice.', '🌐'),
+(13, 'Languages', 'PHP (Intermediate) – Experience building basic web applications including login systems, sessions, and backend logic. Familiar with database interaction and server-side scripting.\r\n\r\nHTML (Intermediate) – Able to structure responsive web pages with proper semantic markup and organized layouts for web applications.\r\n\r\nJavaScript (Basic) – Basic understanding of client-side scripting for simple interactivity and dynamic page behavior.\r\n\r\nPython (Basic) – Familiar with fundamental programming concepts such as variables, loops, and functions. Some experience through coursework and self-study.', '🌐'),
 (14, 'Education', 'I study at Western Mindanao State University (WMSU), Zamboanga City\r\nBachelor of Science in Information Technology (BSIT) — 3rd Year', '🎓'),
 (15, 'Soft-Skills', 'Active Listening – I pay close attention to others and ensure I understand their points before responding.\r\n\r\nReliability – I can be counted on to complete tasks accurately and on time, even when working independently.\r\n\r\nAdaptability – I adjust to changes in the work environment or team dynamics, and I’m always open to learning new things.', '📝'),
 (16, 'Certifications', 'Currently working towards certifications in areas such as programming, web development, and data analysis to further enhance technical skills and knowledge in Information Technology.', '📃');

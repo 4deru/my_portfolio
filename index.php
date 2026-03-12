@@ -426,7 +426,7 @@ body {
     </section>
 
     <!-- Resume Section -->
-    <section id="professional-experience" class="scroll-animate pixelated" style="padding: 60px; background-color: #f5f8fd; border-top: 5px  #112244;">
+    <section id="professional-experience" class="scroll-animate pixelated" style="padding: 60px; background-color: #f5f8fd; border-top: 1px inset #D1D5DB;">
         <h2 style="font-family: 'Axiforma'; font-size: 2rem; color: #112244; text-align:center; border-bottom: 2px solid #1a2a4f; padding-bottom: 10px;">About Me</h2>
 
         <div class="resume-container" id="resume-container">
@@ -445,7 +445,7 @@ body {
     </section>
 
     <!-- Projects Section -->
-    <section id="projects-section" class="scroll-animate pixelated" style="padding: 60px; background-color: #e5eaf5; border-top: 5px #112244;">
+    <section id="projects-section" class="scroll-animate pixelated" style="padding: 60px; background-color: #e5eaf5; border-top: 1px inset #D1D5DB;">
         <h2 style="font-family: 'Axiforma'; font-size: 2rem; color: #112244; text-align:center; border-bottom: 2px solid #1a2a4f; padding-bottom: 10px;">My Projects</h2>
 
         <div class="projects-container">
@@ -476,7 +476,7 @@ body {
     background: linear-gradient(to top left,#e5eaf5 0%, #fff 100%);
     overflow: hidden;
     position: relative;
-    border-top: 4px #112244;
+    border-top: 1px inset #D1D5DB;;
     border-bottom: 4px solid #1a2a4f;
     display: flex;
     flex-wrap: wrap;

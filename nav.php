@@ -8,22 +8,10 @@ nav {
     padding: 20px 60px;
     background: #f5f8fd;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-    border-bottom: 5px inset #000206;
+    border-bottom: 1px inset #D1D5DB;
     z-index: 1;
     position: relative; 
     overflow: hidden; 
-}
-
-
-.star {
-    position: absolute;
-    width: 6px;
-    height: 6px;
-    background-color: #fff;
-    border-radius: 2px; 
-    box-shadow: 0 0 8px #ffffff;
-    animation: twinkle 0.5s infinite ease-in-out;
-    z-index: -1; 
 }
 
 
