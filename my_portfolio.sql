@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 11, 2026 at 05:34 PM
+-- Generation Time: Mar 12, 2026 at 02:32 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -77,7 +77,7 @@ CREATE TABLE `hero_section` (
 --
 
 INSERT INTO `hero_section` (`id`, `image_path`, `heading`, `description`, `name`) VALUES
-(1, 'uploads/profile.jpg', 'An Aspiring Developer', 'Hi! I am Adel Kristan Ramirez. I’m a 21-year-old IT student who enjoys coding, working out at home, and slowly grinding through Japanese lessons. That is why my design is related to cherry blossoms LOL. This portfolio is a collection of projects I&#39;ve worked on, both for school and personal growth. I&#39;m still learning ,  but every project here reflects the kind of work I aim to level up from.', 'Adel Kristan M. Ramirez');
+(1, 'uploads/profile.jpg', 'An Aspiring Developer', 'Hi! I am Adel Kristan Ramirez. I’m a 21-year-old IT student who enjoys coding, working out at home, and slowly grinding through Japanese lessons. This portfolio is a collection of projects I have worked on, both for school and personal growth. I am still learning ,  but every project here reflects the kind of work I aim to level up from.', 'Adel Kristan M. Ramirez');
 
 -- --------------------------------------------------------
 
@@ -127,8 +127,7 @@ INSERT INTO `projects_section` (`id`, `title`, `description`, `media_type`, `med
 (10, 'My Portfolio (Webite)', 'The Portfolio UI is a personalized showcase of creative projects and professional achievements. It highlights each project with great visuals, smooth animations, and engaging interactions.', 'image', 'uploads/projects/portfolio.jpg'),
 (12, 'Space Mission Log ', 'My vision with this website was to make a news relating to space mission because I really have a huge fascination with learning about the cosmos.', 'image', 'uploads/projects/space.jpg'),
 (13, 'Personal Kanji Manager ', 'In this, I created a similar themed website and it&#39;s all about learning Kanji which is a 日本語 (Japanese) alphabet since I&#39;m learning the Language, why not make connect it to coding? :D', 'image', 'uploads/projects/kanji.jpg'),
-(14, 'Dashboard ', 'This was an activity where we made a dashboard.', 'image', 'uploads/projects/dashboard.jpg'),
-(15, 'SADWASAFD', 'FAWFDA', 'image', 'uploads/projects/logo.png');
+(14, 'Dashboard ', 'This was an activity where we made a dashboard.', 'image', 'uploads/projects/dashboard.jpg');
 
 -- --------------------------------------------------------
 
