@@ -36,18 +36,18 @@ include 'projects_section.php';
 </head>
 <style>
  @font-face {
-  font-family: '3Dventure';
-  src: url('assets/3Dventure.ttf') format('truetype');
+  font-family: 'Axiforma';
+  src: url('assets/Axiforma.ttf') format('truetype');
 }
   
     @font-face {
-    font-family: 'PixelifySans-VariableFont_wght';
-    src: url('assets/PixelifySans-VariableFont_wght.ttf') format('truetype');
+    font-family: 'AxiformaMed';
+    src: url('assets/AxiformaMed.ttf') format('truetype');
   }
 
 body {
     margin: 0;
-    font-family: '3Dventure', sans-serif;
+    font-family: 'Axiforma', sans-serif;
     background: #fff;
     color: #112244;
     overflow-x: hidden; 
@@ -81,7 +81,7 @@ body {
     }
 
         .hero-text {
-            height: 350px;
+            height: 400px;
             width: 100%;
             max-width: 100%; 
             min-height: 100%; 
@@ -104,7 +104,7 @@ body {
         .hero-text p {
             padding: 15px;
             font-size: 18px;
-            max-height: 200px;
+            max-height: 500px;
             max-width: 400px;
             background-color: #f5f8fd;
             border-left:3px solid #112244;
@@ -117,7 +117,7 @@ body {
             font-size: 1.5rem;
             white-space: normal;
             overflow-y: auto;
-            font-family: 'PixelifySans-VariableFont_wght';
+            font-family: 'AxiformaMed';
         }
 
     .resume-container {
@@ -133,7 +133,7 @@ body {
 
     .resume-box {
         flex: 0 0 calc(31.5% - 35px);
-        background: #f5f8fd;
+        background: #fff;
         border-top: 4px solid #112244;
         border-bottom: 4px solid #112244;
         padding: 20px;
@@ -146,7 +146,7 @@ body {
     }
 
     .resume-box p {
-        font-family: 'PixelifySans-VariableFont_wght';
+        font-family: 'AxiformaMed';
         max-height: 250px; 
         overflow-y: auto; 
         word-wrap: break-word; 
@@ -223,12 +223,12 @@ body {
 
     .project-card h3 {
         color: #112244;
-        font-family: 'PixelifySans-VariableFont_wght';
+        font-family: 'AxiformaMed';
         margin-bottom: 10px;
     }
 
     .project-card p {
-        font-family: 'PixelifySans-VariableFont_wght';
+        font-family: 'AxiformaMed';
         font-size: 1rem;
         color: #112244;
         word-wrap: break-word; 
@@ -304,7 +304,7 @@ body {
     padding: 60px;
     text-align: center; 
     color: #fff;
-    font-family: '3dventure', sans-serif;
+    font-family: 'Axiforma', sans-serif;
 }
 
 #contact-links h2 {
@@ -427,12 +427,12 @@ body {
 
     <!-- Resume Section -->
     <section id="professional-experience" class="scroll-animate pixelated" style="padding: 60px; background-color: #f5f8fd; border-top: 5px  #112244;">
-        <h2 style="font-family: '3dventure'; font-size: 2rem; color: #112244; text-align:center; border-bottom: 2px solid #1a2a4f; padding-bottom: 10px;">About Me</h2>
+        <h2 style="font-family: 'Axiforma'; font-size: 2rem; color: #112244; text-align:center; border-bottom: 2px solid #1a2a4f; padding-bottom: 10px;">About Me</h2>
 
         <div class="resume-container" id="resume-container">
             <?php while ($resume = $resume_result->fetch_assoc()): ?>
                 <div class="resume-box">
-                    <h3 style="color:#112244; font-family:'PixelifySans-VariableFont_wght'; margin-bottom: 10px; border-bottom: 1px solid #1a2a4f; padding-bottom: 4px;"><?php echo htmlspecialchars($resume['icon'] . ' ' . $resume['title']); ?></h3>
+                    <h3 style="color:#112244; font-family:'AxiformaMed'; margin-bottom: 10px; border-bottom: 1px solid #1a2a4f; padding-bottom: 4px;"><?php echo htmlspecialchars($resume['icon'] . ' ' . $resume['title']); ?></h3>
                     <p style="font-size:1rem;"><?php echo nl2br(htmlspecialchars($resume['content'])); ?></p>
                 </div>
             <?php endwhile; ?>
@@ -446,7 +446,7 @@ body {
 
     <!-- Projects Section -->
     <section id="projects-section" class="scroll-animate pixelated" style="padding: 60px; background-color: #e5eaf5; border-top: 5px #112244;">
-        <h2 style="font-family: '3dventure'; font-size: 2rem; color: #112244; text-align:center; border-bottom: 2px solid #1a2a4f; padding-bottom: 10px;">My Projects</h2>
+        <h2 style="font-family: 'Axiforma'; font-size: 2rem; color: #112244; text-align:center; border-bottom: 2px solid #1a2a4f; padding-bottom: 10px;">My Projects</h2>
 
         <div class="projects-container">
             <?php while ($project = $projects_result->fetch_assoc()): ?>
@@ -496,7 +496,7 @@ body {
         font-weight: 400;
         text-align: center;
         border: 3px solid #1a2a4f;
-        font-family: 'PixelifySans-VariableFont_wght', sans-serif;
+        font-family: 'AxiformaMed', sans-serif;
         box-shadow: 8px 8px 0 #1a2a4f;
         margin-left: 150px;
     ">
@@ -505,7 +505,7 @@ body {
         color: #112244;
         text-align: center;
         margin-bottom: 60px;
-        font-family: '3Dventure', sans-serif;
+        font-family: 'Axiforma', sans-serif;
         letter-spacing: 2px;
         text-shadow: 4px 4px 0 #fff;
     ">
@@ -528,7 +528,7 @@ body {
         max-width: 48%;
         text-align: center;
         color: #fff;
-        font-family: '3Dventure', sans-serif;
+        font-family: 'Axiforma', sans-serif;
     ">
         <h2 style="font-size: 2rem; color: #112244; margin-bottom: 40px;">You can also find me here:</h2>
         <div style="

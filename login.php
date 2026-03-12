@@ -15,16 +15,16 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
   <title>Login</title>
   <style>
       @font-face {
-  font-family: '3Dventure';
-  src: url('assets/3Dventure.ttf') format('truetype');
+  font-family: 'Axiforma';
+  src: url('assets/Axiforma.ttf') format('truetype');
 }
 @font-face {
-    font-family: 'PixelifySans-VariableFont_wght';
-    src: url('assets/PixelifySans-VariableFont_wght.ttf') format('truetype');
+    font-family: 'AxiformaMed';
+    src: url('assets/AxiformaMed.ttf') format('truetype');
   }
 
     body {
-      font-family: 'PixelifySans-VariableFont_wght', sans-serif;
+      font-family: 'AxiformaMed', sans-serif;
       background: #fff;
       color: #112244;
       display: flex;
@@ -74,11 +74,11 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
 
     .login-box h2, .login-box label, .login-box input, .login-box button {
       position: relative;
-      bottom: 50px;
+      bottom: 70px;
     }
 
     .login-box label, .login-box input  {
-      font-family: 'PixelifySans-VariableFont_wght', sans-serif;
+      font-family: 'AxiformaMed', sans-serif;
     }
 
     .login-box input {
@@ -88,12 +88,13 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
       border-right: none;
       border-radius: 4px;
       color: #112244;
+      width: 200px;
       background: #fff;
     }
     
 
     .submit{
-      font-family: 'PixelifySans-VariableFont_wght', sans-serif;
+      font-family: 'AxiformaMed', sans-serif;
       background-color: #112244;
       color: #fff;
       border: none;
@@ -129,7 +130,7 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
     position: absolute;
     top: 20px;
     left: 20px;
-    font-family: '3Dventure', sans-serif;
+    font-family: 'Axiforma', sans-serif;
     font-size: 1.2rem;
     color: #112244;
     text-decoration: none;
@@ -151,7 +152,7 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
       <button type="submit" class="submit">Login</button>
     </form>
   </div>
-  <audio id="login-audio" src="assets/pixel-sound-effect.mp3"></audio>
+  
   <audio id="button-audio" src="assets/pixel-sound-effect.mp3"></audio>
   <script src="pixel_anim.js"></script>
   <script src="audio.js"></script>

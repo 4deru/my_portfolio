@@ -30,7 +30,7 @@ nav {
 .nav-center {
     font-size: 24px;
     font-weight: bold;
-    font-family: 'PixelifySans-VariableFont_wght';
+    font-family: 'AxiformaMed';
     color: #112244;
     text-align: center;
 }
@@ -98,7 +98,7 @@ nav {
 
     .contact-btn {
     color: #1a2a4f;
-    padding: 10px 20px;
+    padding: 5px 20px;
     border-radius: 8px;
     border: 5px solid #1a2a4f;
     border-bottom: none;
@@ -122,20 +122,5 @@ nav {
         <a href="#contact-section" class="contact-btn" id="hover-contact">Contact</a>
     </div>
 
-    <!-- Starzs -->
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
+    
 </nav>

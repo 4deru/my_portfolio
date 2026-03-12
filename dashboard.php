@@ -208,8 +208,8 @@ $section = $_GET['section'] ?? 'hero';
             src: url('assets/3Dventure.ttf') format('truetype');
         }
         @font-face {
-            font-family: 'PixelifySans-VariableFont_wght';
-            src: url('assets/PixelifySans-VariableFont_wght.ttf') format('truetype');
+            font-family: 'AxiformaMed';
+            src: url('assets/AxiformaMed.ttf') format('truetype');
         }
 
         * {
@@ -219,7 +219,7 @@ $section = $_GET['section'] ?? 'hero';
         }
 
         body {
-            font-family: 'PixelifySans-VariableFont_wght', sans-serif;
+            font-family: 'AxiformaMed', sans-serif;
             display: flex;
             background: #fff;
             color: #112244;
