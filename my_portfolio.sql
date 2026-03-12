@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 12, 2026 at 04:13 AM
+-- Generation Time: Mar 12, 2026 at 04:26 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -148,7 +148,7 @@ CREATE TABLE `resume_section` (
 
 INSERT INTO `resume_section` (`id`, `title`, `content`, `icon`) VALUES
 (13, 'Languages', 'PHP (Intermediate) – Experience building basic web applications including login systems, sessions, and backend logic. Familiar with database interaction and server-side scripting.\r\n\r\nHTML (Intermediate) – Able to structure responsive web pages with proper semantic markup and organized layouts for web applications.\r\n\r\nJavaScript (Basic) – Basic understanding of client-side scripting for simple interactivity and dynamic page behavior.\r\n\r\nPython (Basic) – Familiar with fundamental programming concepts such as variables, loops, and functions. Some experience through coursework and self-study.', '🌐'),
-(14, 'Education', 'I study at Western Mindanao State University (WMSU), Zamboanga City\r\nBachelor of Science in Information Technology (BSIT) — 3rd Year', '🎓'),
+(14, 'Education', 'Western Mindanao State University (WMSU), Zamboanga City\r\nBachelor of Science in Information Technology (BSIT) — 3rd Year\r\n\r\nWestern Mindanao State University (WMSU), Zamboanga City\r\nSenior High School Graduate\r\n\r\nImmaculate Conception Archdiocesan School (ICAS), Tetuan — Fr. Barua Street, Zamboanga City\r\nJunior High School Graduate', '🎓'),
 (15, 'Soft-Skills', 'Active Listening – I pay close attention to others and ensure I understand their points before responding.\r\n\r\nReliability – I can be counted on to complete tasks accurately and on time, even when working independently.\r\n\r\nAdaptability – I adjust to changes in the work environment or team dynamics, and I’m always open to learning new things.', '📝'),
 (16, 'Certifications', 'Currently working towards certifications in areas such as programming, web development, and data analysis to further enhance technical skills and knowledge in Information Technology.', '📃');
 
