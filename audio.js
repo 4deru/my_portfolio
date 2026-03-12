@@ -44,19 +44,4 @@ if (loginButton) {
   });
 }
 
-//  sound for the Register herelink
-const registerLink = document.querySelector('a[href="register.php"]');
-if (registerLink) {
-  registerLink.addEventListener('click', (event) => {
-    event.preventDefault();
-    buttonSound.currentTime = 0;
-    buttonSound.play().catch(error => {
-      console.error('Audio playback failed:', error);
-    });
-
-    // Delay navigation by 1 second
-    setTimeout(() => {
-      window.location.href = registerLink.href; 
-    }, 500); 
-  });
-}
+// ...existing code...
