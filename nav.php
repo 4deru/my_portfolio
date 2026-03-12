@@ -8,7 +8,7 @@ nav {
     padding: 20px 60px;
     background: #f5f8fd;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-    border-bottom: 7px inset #8c94ac;
+    border-bottom: 5px inset #000206;
     z-index: 1;
     position: relative; 
     overflow: hidden; 
